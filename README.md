@@ -1,2 +1,2 @@
-# Salt-n-Pepper-
+# Salt & Pepper
 Salt'n Pepper clone
