@@ -41,32 +41,39 @@
 /* navbar end */
 
 
+/* main-image stat */
 
-.img-with {
-    width: 250px;
-    height: 140px;
-    padding: 20px 10px;
-
+.main-with{
+    width: 100%;
 }
 
-.red {
-    color: var(--red);
-}
+/* main-image end */
 
 /* section-01 stat*/
+
+.brands-padding {
+    padding: 70px 15px 130px 15px;
+}
+
+.img-with {
+    max-width: 100%;
+}
+.img-padding{
+    padding: 20px 10px;
+}
+
 .text-style-01{
     font-size: 40px;
     line-height: 50px;
 }
-.padding-well {
-    padding: 70px 15px 130px 15px;
+
+.text-margin {
+    margin-bottom: 8px;
 }
 
-.padding-small {
-    padding: 0px 15px;
-}
 
-.margin-small {
+
+.margin-x {
     margin: 0px 54px;
 }
 
@@ -76,7 +83,7 @@
 .bac-image img{
     width: 250px;
     position: absolute;
-    right:250px;
+    right:100px;
 }
 .padding-70 {
     padding: 70px;
@@ -85,12 +92,10 @@
     background-color:#ffffff0f; 
 }
 
-.text-margin {
-    margin-bottom: 8px;
+.padding-x {
+    padding: 0px 15px;
 }
-.margin-30{
-    margin-bottom: 30px;
-}
+
 .pra-padding{
     padding-bottom: 48px;
 }
@@ -104,6 +109,9 @@
     font-weight: 500;
     letter-spacing: 7.68px;
     line-height: 20px;
+}
+.margin-30{
+    margin-bottom: 30px;
 }
 .text-restaurant{
     font-size: 32px;
@@ -119,8 +127,8 @@
 .padding-10{
     padding-bottom: 10px;
 }
-.text-button{
-    margin-top: 40px;
+.text-top{
+    margin-top: 80px;
 }
 .image-button {
     width: 160px;
