@@ -12,7 +12,7 @@
 }
 
 .nav-link {
-
+font-size: 2rem;
     text-decoration: none;
 }
 
@@ -143,6 +143,11 @@
 .image-with{
     max-width: 100%;
 }
+.m-r{
+    margin-right: 150px;
+}
+
+
 
 /* section-02 end*/
 /* section-03 stat*/
@@ -176,6 +181,13 @@
 }
 .button-mt{
     margin-top: 20px;
+}
+.with{
+    width: 375px;
+    height: 275px;
+}
+.green{
+    background-color: #28a745;
 }
 
 /* section-03 end*/
