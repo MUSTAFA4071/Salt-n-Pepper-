@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #000000;
+}
+
+
+/* ---------  NAVBAR  ------------- SECTION--------- STATED ----------- */
+.d-flex {
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+.gap-30 {
+    gap: 30px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    padding: 15px 100px;
+
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.button-style {
+    background-color: transparent;
+    border: 1px solid #ffffff52;
+    border-radius: 30px;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+.button-color{
+    background-color:  #f42625;
+    border: none;
+}
+
+@media (max-width:1000px) {
+
+    .nav ul{
+        display: none;
+    }
+}
+@media (max-width:600px) {
+
+    .black{
+        display: none;
+    }
+}
+
+/* ---------  NAVBAR  ------------- SECTION--------- ENDED ----------- */
+
+
+/* ---------  FOOTER  ------------- SECTION--------- STATED ----------- */
+
+
+.color-pra {
+    color: #ffffffb3;
+    font-size: 1.5rem;
+}
+.padding-24{
+    padding-bottom: 24px;
+}
+.padding-16{
+    padding-bottom: 16px;
+}
+.margin-right{
+    margin-right: 10px;
+}
+.margin-bottom{
+    margin-bottom: 13px;
+}
+
+
+.footer-boxes{
+    width: 100%;
+    background-color: #ffffff0f;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 105px;
+    gap: 25px;
+    font-size: 1.6rem;
+}
+#box-01{
+    width: 320px;
+    margin-right: 10px;
+}
+#box-02{
+    width: 205px;
+}
+#box-03{
+    width: 320px;
+}
+#box-04{
+    width: 205px;
+}
+
+.min-box ul li{
+    list-style: none;
+}
+.min-box a{
+    text-decoration: none;
+}
+.min-box h3{
+    font-size: 1.6rem;
+    font-style: italic;
+}
+hr{
+    width: 100%;
+}
+.last-pra{
+    width: 100%;
+    padding: 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+
+/* ---------  FOOTER  ------------- SECTION--------- ENDED ----------- */
